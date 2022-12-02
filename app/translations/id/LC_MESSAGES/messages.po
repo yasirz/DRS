@@ -1,0 +1,299 @@
+# Reusable translation file.
+# SPDX-License-Identifier: BSD-4-Clause-Clear
+# Copyright (c) 2018-2020 Qualcomm Technologies, Inc.
+# All rights reserved.
+# Redistribution and use in source and binary forms, with or without modification, are permitted (subject to the limitations in the disclaimer below) provided that the following conditions are met:
+#    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+#    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+#    All advertising materials mentioning features or use of this software, or any deployment of this software, or documentation accompanying any distribution of this software, must display the trademark/logo as per the details provided here: https://www.qualcomm.com/documents/dirbs-logo-and-brand-guidelines
+#    Neither the name of Qualcomm Technologies, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+# SPDX-License-Identifier: ZLIB-ACKNOWLEDGEMENT
+# Copyright (c) 2018-2020 Qualcomm Technologies, Inc.
+# This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
+# Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+#    The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment is required by displaying the trademark/logo as per the details provided here: https://www.qualcomm.com/documents/dirbs-logo-and-brand-guidelines
+#    Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+#    This notice may not be removed or altered from any source distribution.
+# NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-03-21 09:54+0500\n"
+"PO-Revision-Date: 2018-03-01 09:56+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: id\n"
+"Language-Team: id <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: app/api/v1/helpers/error_handlers.py:37
+msgid "RESOURCE_NOT_FOUND"
+msgstr "SUMBER TIDAK DITEMUKAN"
+
+#: app/api/v1/helpers/error_handlers.py:92
+msgid "method not allowed"
+msgstr "metode tidak diizinkan"
+
+#: app/api/v1/helpers/error_handlers.py:99
+msgid "Registration Request not found."
+msgstr "Permintaan Pendaftaran tidak ditemukan."
+
+#: app/api/v1/helpers/error_handlers.py:100
+msgid "De-Registration Request not found."
+msgstr "Permintaan De-Registrasi tidak ditemukan."
+
+#: app/api/v1/helpers/error_handlers.py:101
+msgid "Report not found."
+msgstr "Laporan tidak ditemukan."
+
+#: app/api/v1/helpers/error_handlers.py:102
+msgid "Report not allowed."
+msgstr "Laporan tidak diizinkan."
+
+#: app/api/v1/helpers/error_handlers.py:103
+msgid "Document not found."
+msgstr "Dokumen tidak ditemukan."
+
+#: app/api/v1/helpers/fileprocessor.py:159
+msgid "IMEIs per device count in file is not same as input."
+msgstr "IMEI per hitungan perangkat dalam file tidak sama dengan input."
+
+#: app/api/v1/helpers/fileprocessor.py:161
+#: app/api/v1/helpers/fileprocessor.py:181
+msgid "Device count in file is not same as input"
+msgstr "Penghitungan perangkat dalam file tidak sama dengan input"
+
+#: app/api/v1/helpers/fileprocessor.py:163
+#: app/api/v1/helpers/fileprocessor.py:183
+msgid "Invalid IMEIs in the input file"
+msgstr "IMEI tidak valid dalam file input"
+
+#: app/api/v1/helpers/fileprocessor.py:165
+#: app/api/v1/helpers/fileprocessor.py:185
+msgid "Duplicate IMEIs in the input file"
+msgstr "Duplikat IMEI dalam file input"
+
+#: app/api/v1/helpers/fileprocessor.py:167
+msgid "Some IMEIs are missing in the columns"
+msgstr "Beberapa IMEI tidak ada di kolom"
+
+#: app/api/v1/helpers/fileprocessor.py:169
+msgid "Rows limit is 10000000 for single request"
+msgstr "Batas baris adalah 10000000 untuk permintaan tunggal"
+
+#: app/api/v1/helpers/fileprocessor.py:171
+#: app/api/v1/helpers/fileprocessor.py:187
+msgid "Invalid IMEIs Format in input file"
+msgstr "Format IMEI tidak valid dalam file input"
+
+#: app/api/v1/helpers/utilities.py:337
+msgid "size of file is greator than 26 MB which is not allowed"
+msgstr "ukuran file lebih besar dari 26 MB yang tidak diizinkan"
+
+#: app/api/v1/helpers/validators.py:51
+msgid "invalid imei"
+msgstr "imei tidak valid"
+
+#: app/api/v1/helpers/validators.py:64
+#, python-format
+msgid "%(key)s value should be between 1 and 1000"
+msgstr "%(key)s nilai harus antara 1 dan 1000"
+
+#: app/api/v1/helpers/validators.py:66
+#, python-format
+msgid "%(key)s cannot start or ends with spaces"
+msgstr "%(key)s tidak dapat memulai atau diakhiri dengan spasi"
+
+#: app/api/v1/helpers/validators.py:68
+#, python-format
+msgid "%(key)s cannot start or ends with tabs"
+msgstr "%(key)s tidak dapat memulai atau mengakhiri dengan tab"
+
+#: app/api/v1/helpers/validators.py:70
+#, python-format
+msgid "%(key)s cannot end with line breaks"
+msgstr "%(key)s tidak dapat diakhiri dengan jeda baris"
+
+#: app/api/v1/models/deregdetails.py:227 app/api/v1/models/regdetails.py:190
+msgid "The request is already closed"
+msgstr "Permintaan sudah ditutup"
+
+#: app/api/v1/resources/common.py:69
+msgid "path cannot be empty"
+msgstr "jalan tidak boleh kosong"
+
+#: app/api/v1/resources/common.py:77
+msgid "Unable to process the request"
+msgstr "Tidak dapat memproses permintaan"
+
+#: app/api/v1/resources/common.py:81
+msgid "file not found or bad file path"
+msgstr "file tidak ditemukan atau jalur file buruk"
+
+#: app/api/v1/resources/deregdetails.py:70
+#: app/api/v1/resources/deregdevice.py:57
+#: app/api/v1/resources/deregdevice.py:106
+#: app/api/v1/resources/deregdevice.py:163
+#: app/api/v1/resources/regdetails.py:68
+#: app/api/v1/resources/regdevicedetails.py:60
+msgid "Failed to retrieve response, please try later"
+msgstr "Gagal mengambil respons, coba lagi nanti"
+
+#: app/api/v1/resources/deregdetails.py:115
+#: app/api/v1/resources/deregdetails.py:191
+#: app/api/v1/resources/regdetails.py:114
+#: app/api/v1/resources/regdetails.py:222
+msgid "Registration request failed, check upload path or database connection"
+msgstr "Permintaan pendaftaran gagal, periksa jalur unggah atau koneksi basis data"
+
+#: app/api/v1/resources/deregdetails.py:235
+msgid "De-Registration request failed, check upload path or database connection"
+msgstr "Permintaan De-Registrasi gagal, periksa jalur unggah atau koneksi basis data"
+
+#: app/api/v1/resources/deregdocuments.py:62
+#: app/api/v1/resources/regdocuments.py:68
+msgid "Error retrieving results. Please try later."
+msgstr "Kesalahan saat mengambil hasil. Silakan coba lagi nanti."
+
+#: app/api/v1/resources/deregdocuments.py:109
+#: app/api/v1/resources/regdocuments.py:116
+msgid "request document addition failed, check for valid formats."
+msgstr "permintaan penambahan dokumen gagal, periksa format yang valid."
+
+#: app/api/v1/resources/deregdocuments.py:161
+#: app/api/v1/resources/regdocuments.py:170
+msgid "request document updation failed, please try again later."
+msgstr "permintaan pembaruan dokumen gagal, silakan coba lagi nanti."
+
+#: app/api/v1/resources/regdetails.py:179
+msgid ""
+"Registration update request failed, check upload path or database "
+"connection"
+msgstr "Permintaan pembaruan pendaftaran gagal, periksa jalur unggah atau koneksi basis data"
+
+#: app/api/v1/resources/regdevicedetails.py:103
+#: app/api/v1/resources/regdevicedetails.py:155
+msgid "request device addition failed"
+msgstr "permintaan penambahan perangkat gagal"
+
+#: app/api/v1/resources/restart_process.py:65
+#: app/api/v1/resources/restart_process.py:111
+msgid "This request cannot be processed"
+msgstr "Permintaan ini tidak dapat diproses"
+
+#: app/api/v1/resources/restart_process.py:75
+#: app/api/v1/resources/restart_process.py:120
+msgid "failed to restart process"
+msgstr "gagal memulai kembali proses"
+
+#: app/api/v1/resources/reviewer.py:87 app/api/v1/resources/reviewer.py:110
+#, python-format
+msgid "incomplete request %(id)s can not be assigned/reviewed"
+msgstr "permintaan tidak lengkap %(id)s tidak dapat ditetapkan/ditinjau"
+
+#: app/api/v1/resources/reviewer.py:218 app/api/v1/resources/reviewer.py:248
+msgid "request must be processed before reviewed."
+msgstr "permintaan harus diproses sebelum ditinjau."
+
+#: app/api/v1/resources/reviewer.py:752
+#, python-format
+msgid "unable to approve case %(id)s, duplicated imeis found"
+msgstr "tidak dapat menyetujui case %(id)s, duplikat imeis ditemukan"
+
+#: app/api/v1/resources/reviewer.py:891
+msgid "Unable to approve, invalid imeis found"
+msgstr "Tidak dapat menyetujui, imeis tidak valid ditemukan"
+
+#: app/api/v1/schema/deregdetailsupdate.py:79
+#: app/api/v1/schema/regdetailsupdate.py:94
+msgid "The request status is already Closed"
+msgstr "Status permintaan sudah Ditutup"
+
+#: app/api/v1/schema/deregdetailsupdate.py:82
+#: app/api/v1/schema/regdetailsupdate.py:97
+#, python-format
+msgid "The request status is %(status)s, which cannot be Closed"
+msgstr "Status permintaan adalah %(status)s, yang tidak dapat Ditutup"
+
+#: app/api/v1/schema/deregdetailsupdate.py:85
+#: app/api/v1/schema/regdetailsupdate.py:100
+msgid "The request is in Progress, which cannot be updated"
+msgstr "Permintaan sedang dalam proses, yang tidak dapat diperbarui"
+
+#: app/api/v1/schema/deregdetailsupdate.py:88
+#: app/api/v1/schema/deregdetailsupdate.py:91
+#: app/api/v1/schema/deregdetailsupdate.py:94
+#: app/api/v1/schema/devicedetailsupdate.py:64
+#: app/api/v1/schema/regdetailsupdate.py:103
+#: app/api/v1/schema/regdocumentsupdate.py:76
+#, python-format
+msgid "The request status is %(status)s, which cannot be updated"
+msgstr "Status permintaan adalah %(status)s, yang tidak dapat diperbarui"
+
+#: app/api/v1/schema/deregdevice.py:66 app/api/v1/schema/devicedetails.py:74
+msgid "This step can only be performed for New Request"
+msgstr "Langkah ini hanya dapat dilakukan untuk Permintaan Baru"
+
+#: app/api/v1/schema/deregdocuments.py:65
+#: app/api/v1/schema/deregdocumentsupdate.py:74
+#: app/api/v1/schema/regdocuments.py:67
+#: app/api/v1/schema/regdocumentsupdate.py:86
+#, python-format
+msgid "File format %(format)s is not allowed"
+msgstr "Format file %(format)s tidak diizinkan"
+
+#: app/api/v1/schema/deregdocuments.py:76
+#: app/api/v1/schema/deregdocumentsupdate.py:85
+#: app/api/v1/schema/regdocuments.py:78
+#: app/api/v1/schema/regdocumentsupdate.py:97
+msgid "File names should be unique"
+msgstr "Nama file harus unik"
+
+#: app/api/v1/schema/deregdocuments.py:106
+#: app/api/v1/schema/regdocuments.py:108
+msgid "This step can only be performed for request with Awaiting Document status"
+msgstr "Langkah ini hanya dapat dilakukan untuk permintaan dengan status Menunggu Dokumen"
+
+#: app/api/v1/schema/devicedetailsupdate.py:37
+msgid "In Review"
+msgstr "Dalam Ulasan"
+
+#: app/api/v1/schema/devicedetailsupdate.py:37
+msgid "Approved"
+msgstr "Disetujui"
+
+#: app/api/v1/schema/devicedetailsupdate.py:37
+msgid "Rejected"
+msgstr "Ditolak"
+
+#: app/api/v1/schema/devicedetailsupdate.py:37
+msgid "Closed"
+msgstr "Tutup"
+
+#: app/api/v1/schema/devicedetailsupdate.py:38
+msgid "New Request"
+msgstr "Permintaan baru"
+
+#: app/api/v1/schema/devicedetailsupdate.py:38
+msgid "Awaiting Documents"
+msgstr "Menunggu Dokumen"
+
+#: app/api/v1/schema/regdetails.py:84 app/api/v1/schema/regdetailsupdate.py:148
+msgid "Duplicate IMEIs in request"
+msgstr "IMEI duplikat dalam permintaan"
+
+#~ msgid "No data found"
+#~ msgstr "Tidak ada data ditemukan"
+
+#~ msgid "File format %(format) is not allowed"
+#~ msgstr ""
+
+#~ msgid "The request status is %(status), which cannot be updated"
+#~ msgstr "Status permintaan adalah %(status)s, yang tidak dapat diperbarui"
+
